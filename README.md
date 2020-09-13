@@ -30,7 +30,6 @@ Tipos de Design Patterns
 * [Builder](src/design-patterns/creational/Builder)
 * [Prototype](src/design-patterns/creational/Prototype)
 * [Singleton](src/design-patterns/creational/Singleton)
-* [Builder](src/design-patterns/creational/Builder)
 
 ### Padrões Estruturais
 * [Adapter](src/design-patterns/structural/Adapter)
