@@ -29,7 +29,7 @@ Tipos de Design Patterns
 * [Abstract Factory](src/creational/AbstractFactory)
 * [Builder](src/creational/Builder)
 * [Prototype](src/creational/Prototype)
-* [Singleton](src/creational/Singleton)
+* [Singleton](src/creational/Singleton/README.md)
 
 ### Padrões Estruturais
 * [Adapter](src/structural/Adapter)
