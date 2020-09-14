@@ -4,10 +4,10 @@
 > Na programação orientada a objetos (OOP), uma fábrica é um objeto para criar outros objetos - formalmente, uma fábrica é uma função ou método que retorna objetos de um protótipo ou classe variável de alguma chamada de método, que é considerada "nova" .
 
 ### Resumindo
-> Factory Method: É uma função ou método que deve ser usado para criar objetos sem especificar suas classes concretas.
+> Simple Factory: É uma função ou método que deve ser usado para criar objetos sem especificar suas classes concretas.
 
 ### Por que utilizar?
-> Factory Method é útil quando precisamos de alta flexibilidade no código.
+> Simple Factory é útil quando precisamos de alta flexibilidade no código.
 
 ### Exemplo do mundo real
 > Considere que você é dono de uma fábrica de automóveis que constrói carros elétricos e a combustão. O que seria melhor, ter uma única fábrica onde os dois tipos de carros são construídos? Ou ter fábricas separadas para cada tipo de carro?
