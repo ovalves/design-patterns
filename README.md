@@ -25,7 +25,7 @@ Tipos de Design Patterns
 
 ### Padrões Criacionais
 * [Simple Factory](src/creational/SimpleFactory/README.md)
-* [Factory Method](src/creational/FactoryMethod)
+* [Factory Method](src/creational/FactoryMethod/README.md)
 * [Abstract Factory](src/creational/AbstractFactory)
 * [Builder](src/creational/Builder)
 * [Prototype](src/creational/Prototype)
