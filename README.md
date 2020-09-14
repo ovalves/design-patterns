@@ -19,39 +19,39 @@ Wikipedia describes them as
 Tipos de Design Patterns
 -----------------
 
-* [Criacionais](#creational-design-patterns)
-* [Estruturais](#structural-design-patterns)
-* [Comportamentais](#behavioral-design-patterns)
+* Criacionais
+* Estruturais
+* Comportamentais
 
 ### Padrões Criacionais
-* [Simple Factory](src/design-patterns/creational/SimpleFactory)
-* [Factory Method](src/design-patterns/creational/FactoryMethod)
-* [Abstract Factory](src/design-patterns/creational/AbstractFactory)
-* [Builder](src/design-patterns/creational/Builder)
-* [Prototype](src/design-patterns/creational/Prototype)
-* [Singleton](src/design-patterns/creational/Singleton)
+* [Simple Factory](src/creational/SimpleFactory/README.md)
+* [Factory Method](src/creational/FactoryMethod)
+* [Abstract Factory](src/creational/AbstractFactory)
+* [Builder](src/creational/Builder)
+* [Prototype](src/creational/Prototype)
+* [Singleton](src/creational/Singleton)
 
 ### Padrões Estruturais
-* [Adapter](src/design-patterns/structural/Adapter)
-* [Bridge](src/design-patterns/structural/Bridge)
-* [Composite](src/design-patterns/structural/Composite)
-* [Decorator](src/design-patterns/structural/Decorator)
-* [Facade](src/design-patterns/structural/Facade)
-* [Flyweight](src/design-patterns/structural/Flyweight)
-* [Proxy](src/design-patterns/structural/Proxy)
+* [Adapter](src/structural/Adapter)
+* [Bridge](src/structural/Bridge)
+* [Composite](src/structural/Composite)
+* [Decorator](src/structural/Decorator)
+* [Facade](src/structural/Facade)
+* [Flyweight](src/structural/Flyweight)
+* [Proxy](src/structural/Proxy)
 
 ### Padrões Comportamentais
-* [Chain of Responsibility](src/design-patterns/behavioral/ChainOfResponsibility)
-* [Command](src/design-patterns/behavioral/Command)
-* [Iterator](src/design-patterns/behavioral/Iterator)
-* [Mediator](src/design-patterns/behavioral/Mediator)
-* [Memento](src/design-patterns/behavioral/Memento)
-* [Observer](src/design-patterns/behavioral/Observer)
-* [Visitor](src/design-patterns/behavioral/Visitor)
-* [Strategy](src/design-patterns/behavioral/Strategy)
-* [State](src/design-patterns/behavioral/State)
-* [Template Method](src/design-patterns/behavioral/TemplateMethod)
-* [Visitor](src/design-patterns/behavioral/Visitor)
+* [Chain of Responsibility](src/behavioral/ChainOfResponsibility)
+* [Command](src/behavioral/Command)
+* [Iterator](src/behavioral/Iterator)
+* [Mediator](src/behavioral/Mediator)
+* [Memento](src/behavioral/Memento)
+* [Observer](src/behavioral/Observer)
+* [Visitor](src/behavioral/Visitor)
+* [Strategy](src/behavioral/Strategy)
+* [State](src/behavioral/State)
+* [Template Method](src/behavioral/TemplateMethod)
+* [Visitor](src/behavioral/Visitor)
 
 ## Como usar este repositório
 
@@ -59,4 +59,4 @@ Tipos de Design Patterns
 
 ### Referências
 
-[design-patterns-for-humans](https://github.com/ovalves/design-patterns-for-humans)
+[design-patterns-for-humans](https://github.com/kamranahmedse/design-patterns-for-humans)
