@@ -1,14 +1,19 @@
 # Singleton
 
 ### Definição da Wikipedia
-> In software engineering, the singleton pattern is a software design pattern that restricts the instantiation of a class to one object. This is useful when exactly one object is needed to coordinate actions across the system.
-> Singleton pattern is actually considered an anti-pattern and overuse of it should be avoided. It is not necessarily bad and could have some valid use-cases but should be used with caution because it introduces a global state in your application and change to it in one place could affect in the other areas and it could become pretty difficult to debug. The other bad thing about them is it makes your code tightly coupled plus mocking the singleton could be difficult.
+> Singleton é um padrão de projeto de software. Este padrão garante a existência de apenas uma instância de uma classe, mantendo um ponto global de acesso ao seu objeto. Alguns projetos necessitam que algumas classes tenham apenas uma instância. Por exemplo, em uma aplicação que precisa de uma infraestrutura de log de dados, pode-se implementar uma classe no padrão singleton. Desta forma existe apenas um objeto responsável pelo log em toda a aplicação que é acessível unicamente através da classe singleton.
+
+> Nota linguística: O termo vem do significado em inglês para um conjunto (entidade matemática) que contenha apenas um elemento.
 
 ### Resumindo
 > Garante que apenas um objeto de uma determinada classe seja criado.
 
 ### Exemplo do mundo real
-> Só pode haver um presidente do país por vez.
+> Só pode haver um presidente execercendo mandato no país por vez.
+
+### Observação
+> Singleton é tido como um anti-pattern por violar alguns princípios de design de código. Um deles é o **princípio de responsabilidade única**
+
 
 **Exemplo de código**
 
@@ -32,8 +37,8 @@ class Singleton(type):
 
 class President(metaclass=Singleton):
     pass
-```
 
+```
 Utilizando a classe Singleton
 ```python
 p1 = President()
