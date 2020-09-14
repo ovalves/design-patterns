@@ -12,7 +12,7 @@
 > Só pode haver um presidente execercendo mandato no país por vez.
 
 ### Observação
-> Singleton é tido como um anti-pattern por violar alguns princípios de design de código. Um deles é o **princípio de responsabilidade única**
+> Singleton é tido como um anti-pattern por violar alguns princípios de design de código, um deles é o **princípio de responsabilidade única**
 
 
 **Exemplo de código**
