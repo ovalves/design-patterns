@@ -3,18 +3,17 @@
 [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/ovalves/design-patterns/blob/master/LICENSE)
 [![PR's Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com)
 
-Este repositório contém exemplos de muitos design patterns populares.
+Este repositório contém exemplos de design patterns populares.
 
 🚀 Introdução
 =================
 
-Design patterns are solutions to recurring problems; **guidelines on how to tackle certain problems**. They are not classes, packages or libraries that you can plug into your application and wait for the magic to happen. These are, rather, guidelines on how to tackle certain problems in certain situations.
+### Resumindo
+> Os padrões de design são soluções para problemas recorrentes; diretrizes sobre como lidar com certos problemas.
 
-> Design patterns are solutions to recurring problems; guidelines on how to tackle certain problems
+### Definição da Wikipedia
 
-Wikipedia describes them as
-
-> In software engineering, a software design pattern is a general reusable solution to a commonly occurring problem within a given context in software design. It is not a finished design that can be transformed directly into source or machine code. It is a description or template for how to solve a problem that can be used in many different situations.
+> Em Engenharia de Software, um padrão de projeto (do inglês design pattern) é uma solução geral para um problema que ocorre com frequência dentro de um determinado contexto no projeto de software. Um padrão de projeto não é um projeto finalizado que pode ser diretamente transformado em código fonte ou de máquina, ele é uma descrição ou modelo (template) de como resolver um problema que pode ser usado em muitas situações diferentes.
 
 Tipos de Design Patterns
 -----------------
@@ -59,4 +58,4 @@ Tipos de Design Patterns
 
 ### Referências
 
-[design-patterns-for-humans](https://github.com/kamranahmedse/design-patterns-for-humans)
+[design patterns for humans](https://github.com/kamranahmedse/design-patterns-for-humans)
