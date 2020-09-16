@@ -25,30 +25,30 @@ Tipos de Design Patterns
 ### Padrões Criacionais
 * [Simple Factory](src/creational/SimpleFactory/README.md)
 * [Factory Method](src/creational/FactoryMethod/README.md)
-* [Builder](src/creational/Builder/README.md)
-* [Prototype](src/creational/Prototype/README.md)
+* Builder
+* Prototype
 * [Singleton](src/creational/Singleton/README.md)
 
 ### Padrões Estruturais
-* [Adapter](src/structural/Adapter/README.md)
-* [Bridge](src/structural/Bridge/README.md)
-* [Composite](src/structural/Composite/README.md)
-* [Decorator](src/structural/Decorator/README.md)
-* [Facade](src/structural/Facade/README.md)
-* [Flyweight](src/structural/Flyweight/README.md)
-* [Proxy](src/structural/Proxy/README.md)
+* Adapter
+* Bridge
+* Composite
+* Decorator
+* Facade
+* Flyweight
+* Proxy
 
 ### Padrões Comportamentais
-* [Chain of Responsibility](src/behavioral/ChainOfResponsibility/README.md)
-* [Command](src/behavioral/Command/README.md)
-* [Iterator](src/behavioral/Iterator/README.md)
-* [Mediator](src/behavioral/Mediator/README.md)
-* [Memento](src/behavioral/Memento/README.md)
-* [Observer](src/behavioral/Observer/README.md)
-* [Visitor](src/behavioral/Visitor/README.md)
-* [Strategy](src/behavioral/Strategy/README.md)
-* [State](src/behavioral/State/README.md)
-* [Template Method](src/behavioral/TemplateMethod/README.md)
+* Chain of Responsibility
+* Command
+* Iterator
+* Mediator
+* Memento
+* Observer
+* Visitor
+* Strategy
+* State
+* Template Method
 
 ## Como usar este repositório
 
