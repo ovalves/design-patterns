@@ -1,35 +1,36 @@
 # Design Patterns
 
 [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/ovalves/design-patterns/blob/master/LICENSE)
-[![PR's Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com)
-
-Este repositório contém exemplos de design patterns populares.
 
 🚀 Introdução
 =================
+Os padrões de design são soluções para problemas recorrentes; diretrizes sobre como lidar com certos problemas.
 
-### Resumindo
-> Os padrões de design são soluções para problemas recorrentes; diretrizes sobre como lidar com certos problemas.
-
-### Definição da Wikipedia
-
+## Definição da Wikipedia
 > Em Engenharia de Software, um padrão de projeto (do inglês design pattern) é uma solução geral para um problema que ocorre com frequência dentro de um determinado contexto no projeto de software. Um padrão de projeto não é um projeto finalizado que pode ser diretamente transformado em código fonte ou de máquina, ele é uma descrição ou modelo (template) de como resolver um problema que pode ser usado em muitas situações diferentes.
 
-Tipos de Design Patterns
------------------
+## Tipos de Design Patterns
+---
 
-* Criacionais
-* Estruturais
-* Comportamentais
+### Criacionais
+Estes padrões fornecem vários mecanismos de criação de objetos, que aumentam a flexibilidade e reutilização de código já existente.
 
-### Padrões Criacionais
+### Estruturais
+Estes padrões explicam como montar objetos e classes em estruturas maiores mas ainda mantendo essas estruturas flexíveis e eficientes.
+
+### Comportamentais
+Estes padrões são voltados aos algoritmos e a designação de responsabilidades entre objetos.
+
+## Padrões Criacionais
+
 * [Simple Factory](src/creational/SimpleFactory/README.md)
 * [Factory Method](src/creational/FactoryMethod/README.md)
 * Builder
 * Prototype
 * [Singleton](src/creational/Singleton/README.md)
 
-### Padrões Estruturais
+## Padrões Estruturais
+
 * Adapter
 * Bridge
 * Composite
@@ -38,7 +39,8 @@ Tipos de Design Patterns
 * Flyweight
 * Proxy
 
-### Padrões Comportamentais
+## Padrões Comportamentais
+
 * Chain of Responsibility
 * Command
 * Iterator
@@ -50,10 +52,7 @@ Tipos de Design Patterns
 * State
 * Template Method
 
-## Como usar este repositório
-
-## Informação útil
-
 ### Referências
 
 [design patterns for humans](https://github.com/kamranahmedse/design-patterns-for-humans)
+[refactoring guru](https://refactoring.guru/pt-br/design-patterns/catalog)
