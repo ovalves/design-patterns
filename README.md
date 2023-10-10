@@ -23,8 +23,8 @@ Estes padrões são voltados aos algoritmos e a designação de responsabilidade
 * [Factory Method](src/creational/FactoryMethod/README.md)
 * [Abstract Factory](src/creational/AbstractFactory/README.md)
 * [Builder](src/creational/Builder/README.md)
+* [Prototype](src/creational/Prototype/README.md)
 * [Singleton](src/creational/Singleton/README.md)
-* Prototype
 
 ## Padrões Estruturais
 
