@@ -1,6 +1,6 @@
 # Design Patterns
 
-[![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/ovalves/design-patterns/blob/master/LICENSE)
+[![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/ovalves/design-patterns/blob/main/LICENSE)
 
 🚀 Introdução
 =================
