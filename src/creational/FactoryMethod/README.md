@@ -13,6 +13,46 @@
 ### Quando utilizar?
 > Quando a criação de um objeto necessita de algum tipo de lógica. Nesse caso faz sentido criar uma fábrica dedicada a este objeto ao invés de repetir o código de sua instanciação em vários lugares.
 
+### Diagrama
+```mermaid
+classDiagram
+    class Creator{
+        <<interface>>
+        + someMethod()
+        + createProduct() Product
+    }
+
+    class Product{
+        <<interface>>
+        + doSomething()
+    }
+
+    class ConcreteProductA{
+        + doSomething()
+    }
+
+    class ConcreteProductB{
+        + doSomething()
+    }
+
+    class ConcreteCreatorA{
+        + createProduct() Product
+    }
+
+    class ConcreteCreatorB{
+        + createProduct() Product
+    }
+
+    Creator <|-- ConcreteCreatorA : Implements
+    Creator <|-- ConcreteCreatorB : Implements
+
+    Product <|-- ConcreteProductA : Implements
+    Product <|-- ConcreteProductB : Implements
+
+    Product <-- Creator : Creates
+```
+
+
 **Exemplo de código**
 
 ```python
