@@ -1,20 +1,19 @@
 # Simple Factory
 
-### Definição da Wikipedia
-> Na programação orientada a objetos (OOP), uma fábrica é um objeto para criar outros objetos - formalmente, uma fábrica é uma função ou método que retorna objetos de um protótipo ou classe variável de alguma chamada de método, que é considerada "nova" .
+Na programação orientada a objetos (OOP), uma fábrica é um objeto para criar outros objetos - formalmente, uma fábrica é uma função ou método que retorna objetos de um protótipo ou classe variável de alguma chamada de método, que é considerada "nova" .
 
 ### Resumindo
-> Simple Factory: É uma função ou método que deve ser usado para criar objetos sem especificar suas classes concretas.
+Simple Factory: É uma função ou método que deve ser usado para criar objetos sem especificar suas classes concretas.
 
 ### Por que utilizar?
-> Simple Factory é útil quando precisamos de alta flexibilidade no código.
+Simple Factory é útil quando precisamos de alta flexibilidade no código.
 
 ### Exemplo do mundo real
-> Considere que você é dono de uma fábrica de automóveis que constrói carros elétricos e a combustão. O que seria melhor, ter uma única fábrica onde os dois tipos de carros são construídos? Ou ter fábricas separadas para cada tipo de carro?
-> Dado ao fato do precesso de criação desses dois tipos de veículos exigirem lógicas de criação diferenciadas, faz mais sentido criar fabricas separadas.
+Considere que você é dono de uma fábrica de automóveis que constrói carros elétricos e a combustão. O que seria melhor, ter uma única fábrica onde os dois tipos de carros são construídos? Ou ter fábricas separadas para cada tipo de carro?
+Dado ao fato do processo de criação desses dois tipos de veículos exigirem lógicas de criação diferenciadas, faz mais sentido criar fabricas separadas.
 
 ### Quando utilizar?
-> Quando a criação de um objeto necessita de algum tipo de lógica. Nesse caso faz sentido criar uma fábrica dedicada a este objeto ao invés de repetir o código de sua instanciação em vários lugares.
+Quando a criação de um objeto necessita de algum tipo de lógica. Nesse caso faz sentido criar uma fábrica dedicada a este objeto ao invés de repetir o código de sua instanciação em vários lugares.
 
 **Exemplo de código**
 

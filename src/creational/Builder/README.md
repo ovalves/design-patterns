@@ -15,7 +15,7 @@ Principais elementos do padrão Builder:
 ### Exemplo do mundo real
 O padrão de projeto Builder é usado em diversas situações do mundo real, onde a criação de objetos complexos com várias configurações é necessária.
 
-Exemplos mais comuns onde o padrão Builder é aplicado:
+Exemplos mais comuns onde o padrão Builder é recomendado:
 
 1. **Criação de Documentos Complexos:** Em editores de documentos ou processadores de texto, onde você pode criar documentos com várias seções, parágrafos, imagens e outros elementos. O padrão Builder permite criar documentos de maneira estruturada.
 
